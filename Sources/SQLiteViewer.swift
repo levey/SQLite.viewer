@@ -89,7 +89,7 @@ public class SQLiteViewer {
         startOn(port: port)
     }
     
-    func stop() {
+    public func stop() {
         server.stop()
     }
     
